@@ -4,6 +4,8 @@
 }
 body{
     background-color: #171a26;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    
 }
 #top{
     display: block;
@@ -12,13 +14,13 @@ body{
 
 #nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* border: 1px solid red; */
     height: 40px;
     width: 100%;
     color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-weight: 2000;
     /* background-color: blueviolet; */
     position: fixed;
@@ -40,18 +42,25 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 20px;
-    width: 30%;
+    width: 25%;
     font-weight:bolder;
 }
 #nav_right{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 20px;
-    width: 30%;
+    width: 25%;
+}
+#nav_right>div:nth-child(2){
+border: 2px solid white;
+padding: 5px 15px 5px 15px;
+border-radius: 5px;
+
+
 }
 /* #top1{
     background-image: url("https://images.indulgexpress.com/uploads/user/imagelibrary/2021/10/2/original/Homeworkoutisthenewfitnessmantra.jpeg");
@@ -71,7 +80,7 @@ body{
 #top2>div:nth-child(1){
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     gap: 0;
     border: 1px solid gray;
@@ -81,7 +90,7 @@ body{
 #top2>div:nth-child(2){
     width: 40%;
     height: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     text-align: center;
     color: white;
@@ -89,7 +98,7 @@ body{
 }
 
 #top2>div:nth-child(1)>div{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 33.1%;
 
 }
@@ -140,7 +149,7 @@ body{
     color: rgb(203, 209, 214);
 }
 #top3 >div:nth-child(3) >h1{
-    color: rgb(103, 7, 7);
+    color: rgb(241, 29, 85);
 }
 #top4{
     display: flex;
@@ -199,17 +208,194 @@ body{
 
 }
 #top6{
-    width: 70px;
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-rows: 280px 280px;
     gap: 10px;
+    margin: auto;
 }
 #top6>div{
     border-radius: 10px;
     background-color: #232631;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
+#top6>div>img{
+    width: 100%;
+    height: 100%;
+    
+}
+#topheading3{
+    width: 30%;
+    font-size: 50px;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
 
+}
+#top7{
+    
+    display: flex;
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin: auto;
+
+}
+#top7>div{
+    width: 30%;
+
+    /* border: 2px solid red; */
+    /* border-radius: 5px; */
+    background-color: #232631;
+    /* padding: 5px; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#top7>div:nth-child(1)>div:nth-child(1){
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: last baseline;
+    margin: auto;
+    margin-bottom: 50px;
+    color: white;
+    /* border: 4px solid red; */
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cb.png");
+    
+}
+#top7>div:nth-child(2)>div:nth-child(1){
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: last baseline;
+    margin: auto;
+    margin-bottom: 50px;
+    color: rgb(120, 107, 89);
+    /* border: 4px solid red; */
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cg.png");
+    
+}
+#top7>div:nth-child(3)>div:nth-child(1){
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: last baseline;
+    margin: auto;
+    margin-bottom: 50px;
+    color: rgb(229, 208, 15);
+    /* border: 4px solid red; */
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_404,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/introducting-cult-pass/icp_cl.png");
+    
+}
+#top7>div>div:nth-child(2){
+    width: 100%;
+    color:white;
+
+}
+#top7>div>div>img{
+    width: 100%;
+}
+.top_button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_button>div:nth-child(1)>button{
+    padding: 10px;
+    color: white;
+    /* font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif; */
+    background-color: #171a26;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.top_button>div:nth-child(2)>button{
+    padding: 10px;
+    color:brown;
+    /* font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif; */
+    background-color: white;
+    border: none;
+    border-radius:10px;
+    font-size: 16px;
+    text-align: center;
+}
+#footer1{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#footer1>div:nth-child(1){
+    /* border: 1px solid teal; */
+    width: 30%;
+
+    
+}
+#footer1>div:nth-child(2){
+    /* border: 1px solid teal; */
+    width: 40%;
+    
+    
+}
+#footer1>div:nth-child(3){
+    /* border: 1px solid teal; */
+    width: 25%;
+    
+    
+}
+#footer1>div>div{
+    display: block;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 40px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    
+
+}
+#footer1>div:nth-child(1)>div>img{
+    width: 50%;
+
+}
+#footer1>div:nth-child(1)>div>{
+    width: 80%;
+}
+#footer1>div:nth-child(2){
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+#footer1>div:nth-child(3){
+    display: block;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+#footer1>div:nth-child(3)>div>img{
+    width: 70%;
+}
+#footerlogo{
+    display: flex !important;
+    justify-content: space-around;
+    /* border: 1px solid rgb(242, 246, 2); */
+    margin: auto;
+}
+#footerlogo>div{
+    /* border: 1px solid blue; */
+    width: 30px;
+    margin-bottom: 50px;
+}
+#footer2>img{
+    
+    text-align: center;
+    margin-left: 40px;
+
+}
 
 
