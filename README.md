@@ -14,7 +14,7 @@ Cloned a Health-related website with offers GYM and other products.
     <p>If you want to run our project in your local machine</p>
     <p>Follow the given steps:</p>
     <ul>
-        <li>Clone our respository <a href="https://github.com/anshuman2608/racial_rule_4263">https://github.com/soniadiwedi/-scary-flower-3406/</a></li>
+        <li>Clone our respository <a href="https://github.com/anshuman2608/CultFit-Colne">https://github.com/soniadiwedi/-scary-flower-3406/</a></li>
         <li>Open our code in VS code </li>
          <li>Congrats !  you have successfully started the application.</li>
     </ul>
