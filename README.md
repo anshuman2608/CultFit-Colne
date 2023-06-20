@@ -1,13 +1,32 @@
-This is the first read me file and the details are as follow.
+# CultFit
+Cult-fit colon
 
-<img src="./Assets/flat1.svg" height="100px" /><br /><img
-          src="./Assets/flat2.svg"
-          height="100px"
-        />
+<h3>Live Demo Link https://aquamarine-douhua-4ad200.netlify.app/ </h3>
 
-        <img
-            src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_500,q_auto:eco,dpr_2,f_auto,fl_progressive/image/test/we-are-cult-logo/text-only-v2.png"
-            alt="we-are-cult"
-            class="style-prefix-5blrfd efaomd31"
-            loading="lazy"
-          />
+I cloned a Health-related website that offers GYM and other products.
+
+<h1>Home Page</h1>
+    <img src="./IMAGE/cultfit.png" alt=""/>
+     
+
+   <h1>[Getting Started]</h1>
+    <h3>Execution</h3>
+    <p>If you want to run our project on your local machine</p>
+    <p>Follow the given steps:</p>
+    <ul>
+        <li>Clone our repository <a href="https://github.com/anshuman2608/CultFit-Colne">https://github.com/soniadiwedi/-scary-flower-3406/</a></li>
+        <li>Open our code in VS code </li>
+         <li>Congrats !  you have successfully started the application.</li>
+    </ul>
+        <h1>Built with</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java Script</li>       
+    </ul>
+        <h1>Creators</h1>
+    <ul>
+    
+   
+   <li><a href="">@Anshuman</a></li>
+   </ul>
