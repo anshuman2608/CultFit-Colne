@@ -6,7 +6,7 @@ Cult-fit colon
 I cloned a Health-related website that offers GYM and other products.
 
 <h1>Home Page</h1>
-    <img src="./IMAGE/cultfit.png" alt=""/>
+    <img src="./Assets/cultfit.png" alt=""/>
      
 
    <h1>[Getting Started]</h1>
