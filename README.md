@@ -3,7 +3,7 @@ Cult-fit colon
 
 <h3>Live Demo Link https://aquamarine-douhua-4ad200.netlify.app/ </h3>
 
-Cloned a Health-related website with offers GYM and other products.
+I cloned a Health-related website that offers GYM and other products.
 
 <h1>Home Page</h1>
     <img src="./IMAGE/cultfit.png" alt=""/>
@@ -11,10 +11,10 @@ Cloned a Health-related website with offers GYM and other products.
 
    <h1>[Getting Started]</h1>
     <h3>Execution</h3>
-    <p>If you want to run our project in your local machine</p>
+    <p>If you want to run our project on your local machine</p>
     <p>Follow the given steps:</p>
     <ul>
-        <li>Clone our respository <a href="https://github.com/anshuman2608/CultFit-Colne">https://github.com/soniadiwedi/-scary-flower-3406/</a></li>
+        <li>Clone our repository <a href="https://github.com/anshuman2608/CultFit-Colne">https://github.com/soniadiwedi/-scary-flower-3406/</a></li>
         <li>Open our code in VS code </li>
          <li>Congrats !  you have successfully started the application.</li>
     </ul>
